@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+
+body {
+    background: #2693CA;    
+}
+
+.Forecast {
+    font-size: 18px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    margin: 40px 12%;
+}
+ 
+p {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.list{
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    font-size: 0;
+    text-align: center;
+    background: white;
+    padding: 2px;
+    margin: 35px 0 20px;
+}
+
+.list li {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    padding: 15px;
+    border: white solid 2px;
+    width: 25%;
+    margin: 0;
+    
+}
+
+.list li:nth-of-type(8n+1) {
+    width: 50%;
+}
+
+.list li:last-of-type {
+    width: 100%;
+    background: #656993;
+}
+
+.list li:first-child {
+    background: #2492CA;
+}
+
+.list li:nth-of-type(2) {
+    background: #2bbbba;
+}
+
+.list li:nth-of-type(3) {
+    background: #9e6e9c;
+}
+
+.list li:nth-of-type(4) {
+    background: #ce5046;
+}
+
+.list li:nth-of-type(5) {
+    background: #f06f4d;
+}
+
+.list li:nth-of-type(6) {
+    background: #ffca61;
+}
+
+.list li:nth-of-type(7) {
+    background: #9cc59c;
+}
+
+.list li:nth-of-type(8) {
+    background: #609590;
+}
+
+.list li:nth-of-type(9) {
+    background: #cf7396;
+}
+
+.list li:nth-of-type(10) {
+    background: #2f8969;
+}
+
+.list:hover li {
+    opacity: 60%;
+    position: relative;
+}
+
+.list li:hover {
+    opacity: 100%;
+}
